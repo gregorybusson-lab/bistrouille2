@@ -320,7 +320,7 @@ input:focus,select:focus,textarea:focus{border-color:var(--brand);box-shadow:0 0
 @media (max-width:768px){
   .container{width:94vw}
   .header__inner{flex-wrap:wrap;justify-content:center;padding-top:12px;padding-bottom:12px;gap:12px}
-  .brand{flex:1 1 100%;justify-content:center;margin-bottom:6px}
+  .brand{flex:1 1 100%;justify-content:center;margin-bottom:6px;position:static;transform:none}
   .brand__logo{width:160px;margin-inline:auto;filter:none}
   .toolbar{justify-content:center;gap:8px}
   .iconbtn{display:none}
