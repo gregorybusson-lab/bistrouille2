@@ -46,7 +46,16 @@
       const id = a.getAttribute('href');
       if(!id || id==='#') return;
       const t = document.querySelector(id);
-      if(t){ e.preventDefault(); t.scrollIntoView({behavior:'smooth', block:'start'}); }
+      if(t){ 
+        e.preventDefault(); 
+        t.scrollIntoView({behavior:'smooth', block:'start'});
+        // Fermer le drawer si ouvert
+        if(drawer?.classList.contains('drawer--open')){
+          drawer.classList.remove('drawer--open');
+          burger?.setAttribute('aria-expanded', 'false');
+          drawer?.setAttribute('aria-hidden', 'true');
+        }
+      }
     });
   });
 
@@ -56,6 +65,15 @@
     const open = drawer?.classList.toggle('drawer--open');
     burger.setAttribute('aria-expanded', open ? 'true' : 'false');
     drawer?.setAttribute('aria-hidden', open ? 'false' : 'true');
+  });
+
+  // Fermer le drawer en cliquant à l'extérieur
+  document.addEventListener('click', (e)=>{
+    if(drawer?.classList.contains('drawer--open') && !drawer.contains(e.target) && !burger.contains(e.target)){
+      drawer.classList.remove('drawer--open');
+      burger?.setAttribute('aria-expanded', 'false');
+      drawer?.setAttribute('aria-hidden', 'true');
+    }
   });
 
   /* Reveal au scroll */
