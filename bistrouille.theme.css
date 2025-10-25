@@ -5,7 +5,7 @@ body{margin:0}
 img{max-width:100%;display:block;height:auto}
 button,input,select,textarea{font:inherit}
 a{color:inherit;text-decoration:none}
-:focus-vi.promo-title{display:block;text-align:center;font-size:2.5rem;font-weight:900;text-transform:uppercase;margin-bottom:10px;font-family:"Playfair Display",Georgia,serif;color:#000;-webkit-text-stroke:1px #fff}ible{outline:2px solid #7A0F1F;outline-offset:3px}
+:focus-vi.promo-title{display:block;text-align:center;font-size:2.5rem;font-weight:900;margin-bottom:10px;font-family:"Playfair Display",Georgia,serif;color:#fff;-webkit-text-stroke:2px #000}ible{outline:2px solid #7A0F1F;outline-offset:3px}
 html,body{overflow-x:hidden}
 
 /* TOKENS */
@@ -267,7 +267,7 @@ section{padding:56px 0;scroll-margin-top:calc(var(--header-h) + 24px)}
 .promo h2{font-size:2.5rem;font-weight:900;text-transform:uppercase;margin:0 0 10px;text-align:center}
 .promo p{font-size:1.2rem;margin:0 0 20px;text-align:center}
 .promo__badge{background:var(--brand);color:#fff;padding:10px 16px;border-radius:999px;font-weight:900}
-.promo-title{display:block;text-align:center;font-size:2.5rem;font-weight:900;text-transform:uppercase;margin-bottom:10px;font-family:"Playfair Display",Georgia,serif;color:#000;-webkit-text-stroke:1px #fff}
+.promo-title{display:block;text-align:center;font-size:2.5rem;font-weight:900;margin-bottom:10px;font-family:"Playfair Display",Georgia,serif;color:#fff;-webkit-text-stroke:2px #000}
 /* CARTE */
 .menu-item{display:grid;grid-template-columns:120px 1fr auto;gap:14px;align-items:center;padding:12px 0;border-bottom:1px dashed rgba(0,0,0,.08)}
 .menu-item__thumb{width:120px;height:96px;border-radius:12px;overflow:hidden;background:#ddd}
