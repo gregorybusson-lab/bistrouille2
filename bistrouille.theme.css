@@ -269,7 +269,7 @@ section{padding:56px 0;scroll-margin-top:calc(var(--header-h) + 24px)}
 .promo__badge{background:var(--brand);color:#fff;padding:10px 16px;border-radius:999px;font-weight:900}
 .promo-title{display:block;text-align:center;font-size:3rem;font-weight:900;margin-bottom:10px;font-family:"Playfair Display",Georgia,serif;color:#fff;-webkit-text-stroke:1px #000;text-shadow:0 0 2px #000}
 /* CARTE */
-.menu-item{display:grid;grid-template-columns:120px 1fr auto;gap:14px;align-items:start;padding:12px 0;border-bottom:1px dashed rgba(0,0,0,.08);min-height:140px}
+.menu-item{display:grid;grid-template-columns:120px 1fr auto;gap:14px;align-items:start;padding:12px 0;border-bottom:1px dashed rgba(0,0,0,.08);height:250px}
 .menu-item__thumb{width:120px;height:96px;border-radius:12px;overflow:hidden;background:#ddd}
 .menu-item__name{font-weight:900}
 .menu-item__desc{color:var(--muted);font-size:14px;min-height:4em}
