@@ -118,7 +118,7 @@ h1,h2,h3,h4,.brand__title{font-family:'Playfair Display',Georgia,serif}
 .phone svg{width:22px;height:22px;stroke-width:1.8;stroke:#1c120b}
 .phone span{font-weight:800;letter-spacing:.14em}
 .presentation__actions .phone{justify-content:center}
-.presentation__actions .phone svg{fill:#1c120b;stroke:none}
+.presentation__actions .phone svg{stroke:#1c120b;stroke-width:2.5;fill:none}
 .header.scrolled .iconbtn{background:rgba(0,0,0,.04);border-color:rgba(0,0,0,.18);color:var(--ink);box-shadow:0 10px 22px rgba(0,0,0,.16);opacity:.95}
 .header.scrolled .iconbtn svg{stroke:inherit;fill:inherit}
 .header.scrolled .phone{color:#1c120b;box-shadow:0 12px 26px rgba(201,147,43,.28)}
